@@ -1,0 +1,39 @@
+{
+  "name": "elementary-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js .",
+    "lintfix": "eslint --fix --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilalelreda/elementary-electron.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bilalelreda/elementary-electron/issues"
+  },
+  "homepage": "https://github.com/bilalelreda/elementary-electron#readme",
+  "dependencies": {
+    "cat-picture": "^5.1.2",
+    "lightning-image-poly": "0.0.10"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.22.0",
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-mocha": "^4.9.0",
+    "eslint-plugin-react": "^6.10.3"
+  }
+}
